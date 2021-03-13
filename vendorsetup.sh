@@ -23,3 +23,10 @@
 for var in eng user userdebug; do
   add_lunch_combo omni_tissot-$var
 done
+
+export ALLOW_MISSING_DEPENDENCIES=true
+export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
+export LC_ALL="C"
+export OF_AB_DEVICE=1
+export FOX_BUGGED_AOSP_ARB_WORKAROUND="1420041600"
+export OF_MAINTAINER="Unknownbitch"
